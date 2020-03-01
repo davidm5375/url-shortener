@@ -2,7 +2,7 @@ const request = require('request');
 
 class Shortener {
   constructor(base) {
-    this.base = base || 'http://👎👍.ws';
+    this.base = base || 'http://a.satlink.tk';
   }
   pick(obj) {
     return new Promise((resolve, reject) => {
